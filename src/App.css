@@ -36,3 +36,70 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+body{
+  background-color: rgb(214, 176, 197);
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+.child,.butn_div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  padding-top: 5%;
+}
+
+button{
+  width: 25vw;
+  height: 7vh;
+  border: rgb(63, 3, 21);
+  background-color: rgb(111, 59, 77);
+  color: aliceblue;
+}
+.menu{
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: gray;
+  height: 7vh;
+ 
+}
+
+.Link{
+  text-decoration: none;
+  color: aliceblue;
+  font-size: larger;
+  font-weight: bold;
+}
+table{
+  position:absolute;
+  top: 45%;
+  left: 25%;
+  width: 60vw;
+  height: 45vh;
+  border: 1px solid grey;
+}
+td{
+  border-color: 1px solid gray;
+}
+
+input{
+  height: 7vh;
+  width: 35vw;
+  border: 2px solid rgb(63, 3, 21);
+  border-radius:10px ;
+}
+label{
+  font-size: larger;
+  font-weight: bold;
+  color: rgb(63, 3, 21);
+}
